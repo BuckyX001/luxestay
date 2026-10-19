@@ -10,3 +10,7 @@
 .results,.detail-content,.booking-form,.booking-summary{min-width:0}.search-fields input,.search-fields select{min-width:0;max-width:100%}.lightbox-image{min-width:0}@media(max-width:600px){.lightbox-image{width:min(100%,calc(100vw - 110px))}.contact-form,.booking-form{overflow-wrap:anywhere}}
 .property-grid>div{height:100%}.property-card{height:100%;display:flex;flex-direction:column}.property-body{display:flex;flex:1;flex-direction:column}.property-body>p{flex:1}.property-bottom{margin-top:auto}
 @media(max-width:360px){.hero h1{font-size:42px;overflow-wrap:anywhere}.inner-hero h1,.page-photo-hero h1{font-size:43px;overflow-wrap:anywhere}.search-fields{grid-template-columns:1fr}.search-fields label{border-right:0!important}.search-submit{grid-column:1}}
+.detail-gallery>div:has(>button:only-child){grid-template-rows:1fr}
+.mobile-filter-close{display:none}
+@media(max-width:850px){#stay-filters,#stay-results{scroll-margin-top:86px}.mobile-filter-close{display:grid;place-items:center;flex:none;width:32px;height:32px;text-decoration:none!important}}
+@media(max-width:600px){.detail-gallery>div>button:only-child{grid-column:1/-1}}
